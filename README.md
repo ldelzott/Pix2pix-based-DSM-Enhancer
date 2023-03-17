@@ -1,4 +1,4 @@
-# ESFPNet_docker
+# Pix2pix based DSM-enhancer
 
 Please consider the .pt and .pth files associated with the ESFPNet model. These files should be placed in the 'docker_ESFPNet' folder.
 
