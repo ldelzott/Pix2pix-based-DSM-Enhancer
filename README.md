@@ -6,6 +6,7 @@ This repository hosts an image enhancement tool, based on a Generative Adversari
 
 After the training process, the generator part of the GAN can be used to enhance the lower-quality altimetric data into higher-quality data. According to the results obtained for the data of Bruxelles, the model can learn the desired mapping for the training set: i.e. when a low-quality tile from the training set is given as an input, the GAN provides a (learned) enhanced version as an output. A visual inspection showed convincing generalization capabilities for the validation data. However, those performances could be largely influenced by the relative scarcity of the samples extracted from the considered dataset (Bruxelles). One could perform a proper evaluation of the generalization performances of the model by testing the model on a world region made of visual features distinct from those learned from Bruxelles. 
 
+  
 
 ## To get started
 
@@ -27,7 +28,11 @@ https://www.dropbox.com/s/cs08npups6u1vut/latest_net_G.pth?dl=0
 
 
 
+## Main reference
+The present work arose from an attempt to provide an improved version of the solution proposed in the paper 
+**AUTOMATIC LARGE-SCALE 3D BUILDING SHAPE REFINEMENT USING CONDITIONAL GENERATIVE ADVERSARIAL NETWORKS** by K. Bittner, P. d’Angelo,
+, M. Korner and, P. Reinartz 
+(https://isprs-archives.copernicus.org/articles/XLII-2/103/2018/isprs-archives-XLII-2-103-2018.pdf).
 
-
-Note: the container implementation uses the docker-related code from https://github.com/fsalmasri/Sustain_docker 
+The container implementation uses the docker-related code from https://github.com/fsalmasri/Sustain_docker 
 
